@@ -1,6 +1,4 @@
-# EE-399
-Compilation of homeworks for Machine Learning for Electrical Engineers Spring 2023
-Curve fitting for Regression
+#Curve fitting for Regression
 Chetana Iyer 
 
 Regression attempts to estimate the relationship among different variables in a system loosely based on the relationship between the dependent variables Y, the independent variables X, and an unknown parameter Beta. The parameters, Beta are calculated by optimizing the “goodness of fit” or how well the function matches to the given data. In this assignment, curve fitting was examined as a specific instance of regression. 
