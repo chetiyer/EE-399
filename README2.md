@@ -202,31 +202,31 @@ plt.show()
 
 **problem a** : Correlation Matrix for first 100 images
 
-![image.png](attachment:image.png)
+![image.png]([attachment:image.png](https://github.com/chetiyer/EE-399/blob/main/image.png))
 
 **problem b** : 
 
 Most Correlated Images
 
-![image.png](attachment:image-2.png)
+![image.png]([attachment:image-2.png](https://github.com/chetiyer/EE-399/blob/main/image1.png))
 
 Least Correlated Images
 
-![image.png](attachment:image-3.png)
+![image.png]([attachment:image-3.png](https://github.com/chetiyer/EE-399/blob/main/image2.png))
 
 **problem c**: 
 
 Corrleation Matrix for given set of 10 images
 
-![image.png](attachment:image-4.png)
+![image.png]([attachment:image-4.png](https://github.com/chetiyer/EE-399/blob/main/image4.png))
 
 Most Correlated 
 
-![image.png](attachment:image-5.png)
+![image.png]([attachment:image-5.png](https://github.com/chetiyer/EE-399/blob/main/image5.png))
 
 Least Correlated 
 
-![image.png](attachment:image-6.png)
+![image.png]([attachment:image-6.png](https://github.com/chetiyer/EE-399/blob/main/image5.png))
 
 **problem f**: Norm of difference between absolute values of v1 and u1 is :  1.7239180576197145e-15
 
@@ -250,7 +250,7 @@ Mode 6: 0.59%
 
 Plots of first 6 SVD modes
 
-![image.png](attachment:image-7.png)
+![image.png]([attachment:image-7.png](https://github.com/chetiyer/EE-399/blob/main/image6.png))
 
-
+We can conclude that the SVD inbuilt python method is more robust, efficient and stable!
 
