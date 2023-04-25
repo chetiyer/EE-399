@@ -299,11 +299,11 @@ tree_acc = accuracy_score(y_test, tree_pred)
 ```
 ## 4. Results & Conclusion
 
-**problem 2** ![here](graph1.png)
+**problem 2** ![here](https://github.com/chetiyer/EE-399/blob/main/3_1.png)
 
 The R value is 343, which is the rank of digit space
 
-**problem 4** ![here](graph1.png) #brain image 
+**problem 4** ![here](https://github.com/chetiyer/EE-399/blob/main/3_2.png)  
 
 **problem A** the LDA's classifcation accuracy for distinguishing 4 and 9 is 0.96 
 
@@ -316,9 +316,9 @@ The R value is 343, which is the rank of digit space
 **problem E** The overall accuracy for classification between the SVM and Decision tree methods were 0.97628 and 0.8666
 
 **problem F** On the hard-to-distinguish digits: the accuracy for SVM was 96.80%, and 95.97% for decision tree
-For the east to distinguish digits: the accuracy for SVM was 99.89%, and 99.24% for decision tree
+![here](https://github.com/chetiyer/EE-399/blob/main/3_3.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/3_4.png)
 
-
-**problem a** : Correlation Matrix for first 100 images
-
-![image.png](https://github.com/chetiyer/EE-399/blob/main/image.png)
+For the easy to distinguish digits: the accuracy for SVM was 99.89%, and 99.24% for decision tree
+![here](https://github.com/chetiyer/EE-399/blob/main/3_5.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/3_6.png)
