@@ -184,6 +184,9 @@ plt.show()
 ### Analysis of performance as a function of the number of sensors
 
 ```
+import numpy as np
+import matplotlib.pyplot as plt
+
 # Define the range of number of sensors to evaluate
 sensor_counts = [2, 4, 6, 8, 10]
 
@@ -213,10 +216,20 @@ for sensor_count in sensor_counts:
     shred = models.SHRED(sensor_count, m, hidden_size=64, hidden_layers=2, l1=350, l2=400, dropout=0.1).to(device)
     models.fit(shred, train_dataset, valid_dataset, batch_size=64, num_epochs=1000, lr=1e-3, verbose=True, patience=5)
     
-    # Calculate validation errors
-    predicted_valid_out = shred.predict(valid_dataset)
-    validation_error = calculate_error(predicted_valid_out, valid_data_out)  # Replace with appropriate error metric calculation
-
+    # Set the model to evaluation mode
+    shred.eval()
+    
+    # Obtain predictions from the model using the validation dataset
+    with torch.no_grad():
+        predicted_valid_out = shred(valid_data_in)
+    
+    
+    # Calculate validation error (RMSE)
+    mse = torch.mean((predicted_valid_out - valid_data_out)**2)
+    rmse = torch.sqrt(mse)
+    validation_error = rmse.item()
+    
+    
     # Store the validation error
     validation_errors.append(validation_error)
     
@@ -227,6 +240,7 @@ plt.ylabel('Validation Error')
 plt.title('Performance vs Number of Sensors')
 plt.show()
 
+
 ```
 
 ## 4. Results & Conclusion
@@ -235,5 +249,6 @@ plt.show()
 
 **Performance as a function Time Lag** ![here](https://github.com/chetiyer/EE-399/blob/main/download-1.png)
 
-**Peformance as a function of noise level** ![here](https://github.com/chetiyer/EE-399/blob/main/download.png)  
+**Peformance as a function of Noise level** ![here](https://github.com/chetiyer/EE-399/blob/main/download.png)  
 
+**Peformance as a function of Number of Sensors** ![here](https://github.com/chetiyer/EE-399/blob/main/download-3.png)  
