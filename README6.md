@@ -231,26 +231,9 @@ plt.show()
 
 ## 4. Results & Conclusion
 
-**problem 2** ![here](https://github.com/chetiyer/EE-399/blob/main/3_1.png)
+**Validation Error during training ** ![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
 
-The R value is 343, which is the rank of digit space
+**Performance as a function Time Lag ** ![here](https://github.com/chetiyer/EE-399/blob/main/download-1.png)
 
-**problem 4** ![here](https://github.com/chetiyer/EE-399/blob/main/3_2.png)  
+**Peformance as a function of noise level** ![here](https://github.com/chetiyer/EE-399/blob/main/download.png)  
 
-**problem A** the LDA's classifcation accuracy for distinguishing 4 and 9 is 0.96 
-
-**problem B** the LDA's classifcation accuracy for distinguishing 2,3,5 is 0.93
-
-**problem C** 5 and 8 were calculated to be the hardest to distinguish with an accuracy of .95
-
-**problem D** 6 and 9 were calculated to be the easiest to distinguish with an accuracy of 1.0
-
-**problem E** The overall accuracy for classification between the SVM and Decision tree methods were 0.97628 and 0.8666
-
-**problem F** On the hard-to-distinguish digits: the accuracy for SVM was 96.80%, and 95.97% for decision tree
-![here](https://github.com/chetiyer/EE-399/blob/main/3_3.png)
-![here](https://github.com/chetiyer/EE-399/blob/main/3_4.png)
-
-For the easy to distinguish digits: the accuracy for SVM was 99.89%, and 99.24% for decision tree
-![here](https://github.com/chetiyer/EE-399/blob/main/3_5.png)
-![here](https://github.com/chetiyer/EE-399/blob/main/3_6.png)
