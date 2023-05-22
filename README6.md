@@ -231,9 +231,9 @@ plt.show()
 
 ## 4. Results & Conclusion
 
-**Validation Error during training ** ![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+**Validation Error during training** ![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
 
-**Performance as a function Time Lag ** ![here](https://github.com/chetiyer/EE-399/blob/main/download-1.png)
+**Performance as a function Time Lag** ![here](https://github.com/chetiyer/EE-399/blob/main/download-1.png)
 
 **Peformance as a function of noise level** ![here](https://github.com/chetiyer/EE-399/blob/main/download.png)  
 
