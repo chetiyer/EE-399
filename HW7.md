@@ -53,15 +53,25 @@ it affects the snake's performance in the snake game
 ### Modifying Epsilon:
 Tested this by trying 3 epsilon values of 0.3, 0.5 and 0.9. The lower value means pure exploitation, while a higher value is leaning towards pure exploration. For the value of 0.3 these were the training results: 
 
-### For the value of 0.3 these were the training results![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+### Coupled with a high gamme value of 0.9 For the epsilon value of 0.3 these were the training results
 
-### For the value of 0.5 these were the training results![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/0.3.png)
 
-### For the value of 0.9 these were the training results![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/0.3%20a.png)
+
+![here](https://github.com/chetiyer/EE-399/blob/main/0.3%20b.png)
+
+### For the value of 0.5 these were the training results
+
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%201.57.33%20PM.png)
+
+### For the value of 0.9 these were the training results
+
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.04.33%20PM.png)
 
 
 From this we could conclude that keeping a lower Epsilon value would prove more 
-beneficial for lasting longer in the snake game 
+beneficial for lasting longer in the snake game if the gamma value is high - else a median value is optimal
 
 ### Modifying Gamma: 
 Tested this by trying 3 gamma values of 0.1, 0.5 and 0.9. A value closer to 1 considers future rewards more, and a value closer to 0 considers immediate rewards more. 
@@ -100,5 +110,5 @@ These were the results:
 
 One observation was that when the loosing/inneficient consequence was too high, the snake went in loops. In addition, when the rewards were all equal there was no improvement in performance towards winning. The best performance was when there was a smaller consequence and much larger reward for making efficient and winning moves. 
 
-Tying this to the earlier parts - we can conclude the best performance was observed when the gamma value was lower, the epsilon value was lower, and the rewards were designed to prioritize efficient and winning moves. 
+Tying this to the earlier parts - we can conclude the best performance was observed when the gamma value was neutral, the epsilon value was lower, and the rewards were designed to prioritize efficient and winning moves. 
 
