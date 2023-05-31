@@ -66,11 +66,20 @@ beneficial for lasting longer in the snake game
 ### Modifying Gamma: 
 Tested this by trying 3 gamma values of 0.1, 0.5 and 0.9. A value closer to 1 considers future rewards more, and a value closer to 0 considers immediate rewards more. 
 
-### For the value of 0.1 these were the training results![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+### For the value of 0.1 these were the training results
+![here](https://github.com/chetiyer/EE-399/blob/main/gamma_0.1.png)
 
-### For the value of 0.5 these were the training results![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+### For the value of 0.5 these were the training results
+![here](https://github.com/chetiyer/EE-399/blob/main/gamma_0.5.png)
 
-### For the value of 0.9 these were the training results![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.10.51%20PM.png)
+
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.11.40%20PM.png)
+
+### For the value of 0.9 these were the training results
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%203.31.21%20PM.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.14.14%20PM.png)
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.15.21%20PM.png)
 
 From this we can conclude that having a median/lower value will serve better in the game. 
 
