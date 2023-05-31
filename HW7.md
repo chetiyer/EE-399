@@ -89,11 +89,14 @@ Tested this by trying 3 combinations: high consequences for making losing moves 
 
 These were the results: 
 
-### 1 - high consequences for losing moves & inneficient moves![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+### 1 - high consequences for losing moves & inneficient moves
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.28.53%20PM.png)
 
-### 2 - equal rewards for all [losing moves, inefficient moves, efficient moves, and winning moves]![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+### 2 - equal rewards for all [losing moves, inefficient moves, efficient moves, and winning moves]
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.27.36%20PM.png)
 
-### 3 - Higher rewards for winning and efficient moves![here](https://github.com/chetiyer/EE-399/blob/main/download-2.png)
+### 3 - Higher rewards for winning and efficient moves
+![here](https://github.com/chetiyer/EE-399/blob/main/Screen%20Shot%202023-05-31%20at%202.25.54%20PM.png)
 
 One observation was that when the loosing/inneficient consequence was too high, the snake went in loops. In addition, when the rewards were all equal there was no improvement in performance towards winning. The best performance was when there was a smaller consequence and much larger reward for making efficient and winning moves. 
 
